@@ -53,3 +53,14 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* p is a block element which means it stacks things instead of lining them next to each other */
+section {
+    padding:60px;
+}
+/*hero style section*/
+.hero {
+background-image: url("hero-bg.jpg");
+height: 600px;
+background-size: cover;
+background-position: center;
+}
