@@ -1,0 +1,97 @@
+.hero {
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    
+
+  }
+
+  .page-title {
+      color: #fce138;
+  }
+  h2 {
+      display: inline-block;
+      border-bottom: 4px solid;
+      color: #fce138;
+      padding: 0 80px 15px 80px;
+      font-weight: normal;
+      font-size: 42px;
+      font-style: italic;
+ }
+
+ .secondary-content{
+     width: 80%;
+     margin: 0 50px 0 50px;
+     color: #024e76;
+ }
+
+ .secondary-content h3 {
+     font-size: 25px;
+     margin: 20px 0 20px 0;
+ }
+
+ .secondary-content p{
+     font-size: 16px;
+     line-height: 1.5;
+     margin: 20px 0 20px 0;
+ }
+ .secondary-content ul {
+     margin: 15px 20px 15px 20px;
+
+ }
+ .secondary-content li {
+color: #39a6b2;
+margin: 10px 0 10px 0;
+ }
+
+ header {
+    padding: 20px 35px;  /*applies 20px to every side of teh box */
+    background-color:#39a6b2;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin:0;
+    display: inline;
+}
+header a {
+    text-decoration: none;
+    color: yellow;
+}
+header nav {
+    float:right; /*similar to text wrapping property in docs or word */
+    margin: 7px 0; /* margin adds space to the top and bottom and 0 represents the spaces to the right and left */
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+footer {
+    background:#fce138;
+    width:100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+   
+}
+footer div {
+    float: right;
+    line-height: 1.5;     /* assigns how much vertical space should be between lines of text content */
+    text-align: right;
+}
+footer a {
+    color: #024e76;
+}
