@@ -29,6 +29,13 @@ header nav {
    margin: 7px 0; 
    
 }
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
 
 header nav ul li {
     display: inline;
@@ -36,21 +43,26 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw; /* "vw" stands for viewport width.
+               this tells the browser that the font-size should 
+               be roughly 1.55% of the window's overall width. */
 }
 footer {
     background:#fce138;
     width:100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer h2 {
-    display: inline;
+   
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 footer div {
-    float: right;
+    
     line-height: 1.5;     /* assigns how much vertical space should be between lines of text content */
     text-align: right;
 }
