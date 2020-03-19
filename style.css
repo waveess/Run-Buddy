@@ -8,24 +8,28 @@ body {
     font-family: Arial;
 }
 header {
-    padding: 20px 35px;  /*applies 20px to every side of teh box */
+    padding: 20px 35px;
     background-color:#39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin:0;
-    display: inline;
+    
 }
 header a {
     text-decoration: none;
     color: yellow;
 }
 header nav {
-    float:right; /*similar to text wrapping property in docs or word */
-    margin: 7px 0; /* margin adds space to the top and bottom and 0 represents the spaces to the right and left */
+   margin: 7px 0; 
+   
 }
+
 header nav ul li {
     display: inline;
 }
