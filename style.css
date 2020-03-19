@@ -140,9 +140,7 @@ flex-wrap: wrap;
   }
 
   /*what-we-do */
-  .intro{
-      text-align: center;
-  }
+  
   .intro h2{
   font-size: 55px;
   color: #024e76;
@@ -159,11 +157,12 @@ flex-wrap: wrap;
       width: 80%;
       font-size: 20px;
       margin: 0 auto;
+      text-align: center;
   }
   
 /*what-you-do */
   .steps{
-      text-align:center;
+     
       background: #fce138;
   }
 .steps h2{
@@ -210,9 +209,7 @@ flex-wrap: wrap;
 
 /*meet-your-trainers */
 /*trainer 1 */
-.trainers {
-text-align: center;
-}
+
 .trainers h2{
     font-size: 55px;
     color: #024e76;
@@ -242,12 +239,20 @@ text-align: center;
   margin-bottom: 35px;
 }
 
+/* utility classes */
+
 .text-left{
     text-align: left;
 }
 .text-right{
     text-align: right;
 }
+
+.flex-row {
+    display: flex;
+}
+
+
 .trainer-bio h3{
     font-size: 32px;
     margin-bottom: 8px;
@@ -299,14 +304,19 @@ text-align: center;
 
 .section-title {
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
+     border-bottom: 3px solid;
     color: #024e76;
-}
-.contact {
+    padding-bottom: 20px;
     text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+/* end of utility classes */
+
+
+.contact {
+   
     background: #024e76;
 }
   .contact h2 {
