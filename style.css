@@ -144,11 +144,7 @@ flex-wrap: wrap;
   .intro h2{
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
   border-color: #fce138;
-  display:inline-block; 
   }
 
   .intro p{
@@ -251,7 +247,7 @@ flex-wrap: wrap;
 .flex-row {
     display: flex;
 }
-
+/* end of utility classes */
 
 .trainer-bio h3{
     font-size: 32px;
@@ -312,7 +308,7 @@ flex-wrap: wrap;
     width: 50%;
 }
 
-/* end of utility classes */
+
 
 
 .contact {
