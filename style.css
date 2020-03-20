@@ -145,6 +145,9 @@ flex-wrap: wrap;
   font-size: 55px;
   color: #024e76;
   border-color: #fce138;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
   }
 
   .intro p{
@@ -161,12 +164,12 @@ flex-wrap: wrap;
      
       background: #fce138;
   }
-.steps h2{
+.step h2{
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
     display:inline-block; 
 }
@@ -186,22 +189,64 @@ flex-wrap: wrap;
   .secondary-color{
       border-color: #39a6b2;
   }
-  .steps div{
-      margin-bottom: 80px;
-  }
-  .steps img {
-    width: 15%;
-    margin: 10px 0;
-  }
-.steps h3{
+  
+.step h3{
    color: #024e76;
    font-size: 46px;
-   margin-top: 10px; 
-}
-.steps p{
+   flex: 1 30%;
+    }
+.step-text p{
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
+/* STEP Class */
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+/*-----END------- */
+
+/*STEP-INFO CLASS */
+
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*-----END------- */
+
+/*STEP-IMG */
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+  .step-img img {
+    max-width: 100%;
+  }
+  /*-----END------ */
+
+
+  /*Step-Text */
+
+.step-text {
+  flex: 12;
+}
+
+/*-----END-----*/
+
 
 /*meet-your-trainers */
 /*trainer 1 */
