@@ -262,22 +262,30 @@ flex-wrap: wrap;
 }
 
 /*trainer 1 styling */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
 .trainer {
-  width: 900px;
-  margin: 0 auto 30px auto;
+ flex: 1;
+  margin: 20;
   background: #024e76;
   color: #fce138;
-  overflow: auto;
+  
 }
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
+    
 }
 .trainer-bio {
-    padding: 35px;
-  float: right;
-  width: 50%;
+  padding: 25px;
   margin-bottom: 35px;
+  line-height:1.3;
 }
 
 /* utility classes */
@@ -295,51 +303,20 @@ flex-wrap: wrap;
 /* end of utility classes */
 
 .trainer-bio h3{
-    font-size: 32px;
-    margin-bottom: 8px;
+    font-size: 28px;
+   
 }
 .trainer-bio h4{
     font-weight:lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 .trainer-bio p{
     font-size: 17px;
-    line-height:1.3;
+    
 }
 
-/* trainer 2 styling */
-.trainer2 {
-    width: 900px;
-    margin: 0 auto 30px auto;
-    background: #024e76;
-    color: #fce138;
-    overflow: auto;
-  }
-  .trainer2 img {
-      width: 35%;
-      float: right;
-  }
-  .trainer2-bio {
-      padding: 35px;
-    float: left;
-    width: 50%;
-    margin-bottom: 35px;
-  }
-  
-  .trainer2-bio h3{
-      font-size: 32px;
-      margin-bottom: 8px;
-  }
-  .trainer2-bio h4{
-      font-weight:lighter;
-      font-size: 26px;
-      margin-bottom: 25px;
-  }
-  .trainer2-bio p{
-      font-size: 17px;
-      line-height:1.3;
-  }
+
   
   /* Reach Out Section */
 
